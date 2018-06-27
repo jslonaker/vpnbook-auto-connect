@@ -39,5 +39,4 @@ subprocess.call('wget https://www.vpnbook.com/free-openvpn-account/VPNBook.com-O
 
 subprocess.call('unzip ./VPNBook.com-OpenVPN-Euro1.zip',shell=True)
 subprocess.call('nohup sudo openvpn --config vpnbook-euro1-tcp443.ovpn --auth-user-pass ovpn.credential &',shell=True)
-subprocess.call('sudo /usr/share/scripts/routerVpnMode-enable',shell=True)
 subprocess.call('tail -f nohup.out',shell=True)

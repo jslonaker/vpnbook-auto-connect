@@ -1,7 +1,4 @@
 import subprocess
-subprocess.call('sudo ifconfig tun0 down',shell=True)
-subprocess.call('sudo service isc-dhcp-server start',shell=True)
-subprocess.call('sudo /usr/share/scripts/routerMode-enable',shell=True)
 strx = 'lynx -dump -nolist https://www.vpnbook.com/freevpn > lynx.tmp'
 subprocess.call(strx,shell=True)
 f_SiteList = open ('lynx.tmp')

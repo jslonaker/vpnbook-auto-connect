@@ -1,0 +1,10 @@
+##################################################################
+Ok, so when I initially created this python script, the password displayed
+at vpnbook.com/freevpn was in plain text.  I was able to retrieve it by ID
+and inner text.  Now, they are using an image with clear legible text 
+displayed.  My goal is to recreate this script using an OCR API to 
+regain automated connectivity.  Until then, sorry bout your luck bruh,
+this repo is junk. ;)
+
+
+##################################################################
